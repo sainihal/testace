@@ -6,8 +6,14 @@ steps:
   - name: Step rest-new
     description: ""
     config:
-      endpoint: {}
+      endpoint:
+        url: https://reqres.in/api/users?page=2
       restRequest: JSON
       expectedResponseLocation: body
+      targetPath: result
+      headers: {}
+      oAuthConfig: {}
+      mtlsConfig: {}
+      json: {}
     stepType: rest-new
     condition: ""
