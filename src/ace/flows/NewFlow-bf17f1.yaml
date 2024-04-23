@@ -1,0 +1,13 @@
+tags: []
+sampleInputSchema: ""
+sampleData: {}
+description: ""
+steps:
+  - name: Step rest-new
+    description: ""
+    config:
+      endpoint: {}
+      restRequest: JSON
+      expectedResponseLocation: body
+    stepType: rest-new
+    condition: ""
